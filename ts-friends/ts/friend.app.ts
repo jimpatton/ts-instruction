@@ -17,4 +17,3 @@ console.log("Name\tAge\tEmail\t\tBFF");
 for (let friend of friends) {
     console.log(`${friend.name}\t${friend.age}\t${friend.email}\t${friend.bff}`)
 }
-
