@@ -13,9 +13,9 @@ export class Movie {
         director: string = ""
 
     ) {
-        (this.id = id),
-            (this.title = title),
-            (this.year = year),
+        (this.id = id);
+        (this.title = title);
+        (this.year = year),
             (this.rating = rating),
             (this.director = director);
     }
